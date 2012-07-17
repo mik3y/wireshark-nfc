@@ -26,7 +26,6 @@
 
 #include <glib.h>
 
-#include <epan/conversation.h>
 #include <epan/packet.h>
 #include <epan/prefs.h>
 
@@ -486,19 +485,6 @@ static int dissect_llcp(tvbuff_t *tvb, packet_info *pinfo, proto_tree *tree)
 	/* Set source and dest fields. */
 	llcp_set_address(pinfo, ssap, dsap);
 
-	switch (ptype) {
-		case LLCP_PTYPE_SYMM:
-			break;
-		case LLCP_PTYPE_CONNECT:
-			conversation_new(pinfo->fd->num, &pinfo->src,
-					&pinfo->dst, pinfo->ptype, pinfo->srcport,
-					pinfo->destport, NO_ADDR2 );
-			break;
-		default:
-			find_or_create_conversation(pinfo);
-			break;
-	}
-
 	if (tree) {
 		return 2 + llcp_dissect_frame(tvb, pinfo, tree);
 	} else {
@@ -508,18 +494,12 @@ static int dissect_llcp(tvbuff_t *tvb, packet_info *pinfo, proto_tree *tree)
 
 
 /* Register the protocol with Wireshark */
-
-/* this format is require because a script is used to build the C function
-   that calls all the protocol registration.
-*/
-
 void
 proto_register_llcp(void)
 {
 	module_t *llcp_module;
 	module_t *llcpip_module;
 
-/* Setup list of header fields  See Section 1.6.1 for details*/
 	static hf_register_info hf[] = {
 		{ &hf_llcp_dsap,
 			{ "DSAP", "llcp.dsap",
