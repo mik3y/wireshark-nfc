@@ -1,0 +1,3 @@
+plugin/*.o
+plugin/*.so
+tools/*.pyc
