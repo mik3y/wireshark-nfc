@@ -1,0 +1,153 @@
+2012-09-24 12:11:46,983 INFO  [root] enable debug output for module 'nfc.dep'
+2012-09-24 12:11:46,984 INFO  [nfc.clf] searching for a usable reader
+2012-09-24 12:11:46,984 INFO  [dev] searching for a usb bus reader
+2012-09-24 12:11:46,987 DEBUG [dev] path match for 'usb' (or no path given)
+2012-09-24 12:11:46,989 DEBUG [dev] trying usb:bus-0:\\.\libusb0-0001--0x054c-0x02e1
+2012-09-24 12:11:46,989 DEBUG [dev] import nfc.dev.rcs956_usb
+2012-09-24 12:11:46,994 INFO  [nfc.dev.pn53x] chipset is a PN533 version 1.48
+2012-09-24 12:11:47,099 INFO  [nfc.clf] using Sony RC-S360/SH at usb:bus-0:\\.\libusb0-0001--0x054c-0x02e1
+2012-09-24 12:11:50,012 INFO  [nfc.dev.pn53x] activated a p2p target in 424 kbps active mode
+2012-09-24 12:11:50,013 INFO  [nfc.llcp.llc] LLCP Link established, I'm the DEP Initiator
+Local LLCP Settings
+  LLCP Version: 1.1
+  Link Timeout: 1000 ms
+  Max Inf Unit: 1024 octet
+  Service List: 0000000000010011
+Remote LLCP Settings
+  LLCP Version: 1.1
+  Link Timeout: 1500 ms
+  Max Inf Unit: 128 octet
+  Service List: 0000000000010011
+2012-09-24 12:11:50,016 INFO  [nfc.snep.server] snep server bound to port 4
+2012-09-24 12:11:50,016 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,016 INFO  [nfc.snep.server] snep server bound to port 16
+2012-09-24 12:11:50,017 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,042 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,042 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:50,043 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,043 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,055 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,055 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:50,055 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,056 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,065 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,066 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:50,068 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,068 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,078 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,078 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:50,079 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,081 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,091 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,092 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:50,092 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,092 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,104 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,105 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:50,105 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,105 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,115 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,115 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:50,117 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,118 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,127 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,127 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:50,128 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,128 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,138 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,138 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:50,138 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,138 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,148 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,148 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:50,650 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:50,651 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:50,661 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:50,663 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,164 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,164 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,174 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,176 DEBUG [nfc.dep] dep raw << 1120
+2012-09-24 12:11:51,177 INFO  [nfc.llcp.tco] accepting CONNECT from SAP 32
+2012-09-24 12:11:51,177 DEBUG [nfc.dep] send 5 byte dep cmd
+2012-09-24 12:11:51,178 INFO  [nfc.snep.server] serving snep client on remote sap 32
+2012-09-24 12:11:51,178 DEBUG [nfc.dep] dep raw >> 8184050102
+2012-09-24 12:11:51,190 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,191 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,193 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,193 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,207 DEBUG [nfc.dep] rcvd 33 byte dep rsp in 33 ms
+2012-09-24 12:11:51,207 DEBUG [nfc.dep] dep raw << 132000100200000018d1011455046c61756e63687061642e6e65742f6e66637079
+2012-09-24 12:11:51,209 INFO  [root] default snep server got put request
+2012-09-24 12:11:51,210 DEBUG [nfc.dep] send 3 byte dep cmd
+2012-09-24 12:11:51,210 INFO  [root] ndef message length is 24 octets
+2012-09-24 12:11:51,210 DEBUG [nfc.dep] dep raw >> 834401
+2012-09-24 12:11:51,211 INFO  [root] type is 'urn:nfc:wkt:U', id is ''
+2012-09-24 12:11:51,220 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,221 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,223 DEBUG [nfc.dep] send 9 byte dep cmd
+2012-09-24 12:11:51,223 DEBUG [nfc.dep] dep raw >> 830401108100000000
+2012-09-24 12:11:51,233 DEBUG [nfc.dep] rcvd 3 byte dep rsp in 3 ms
+2012-09-24 12:11:51,234 DEBUG [nfc.dep] dep raw << 136001
+2012-09-24 12:11:51,236 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,236 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,246 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,246 DEBUG [nfc.dep] dep raw << 1160
+2012-09-24 12:11:51,249 DEBUG [nfc.dep] send 3 byte dep cmd
+2012-09-24 12:11:51,249 DEBUG [nfc.dep] dep raw >> 81c400
+2012-09-24 12:11:51,257 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,259 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,259 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,260 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,269 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,270 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,272 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,272 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,282 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,282 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,282 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,283 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,293 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,293 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,295 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,296 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,306 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,306 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,308 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,309 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,318 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,319 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,319 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,321 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,329 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,329 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,331 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,332 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,341 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,342 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,342 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,342 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,351 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,352 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,354 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,354 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,364 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,364 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:51,865 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:51,865 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:51,875 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:51,875 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:52,377 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:52,378 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:52,387 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:52,388 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:52,888 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:52,890 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:52,901 DEBUG [nfc.dep] rcvd 2 byte dep rsp in 2 ms
+2012-09-24 12:11:52,901 DEBUG [nfc.dep] dep raw << 0000
+2012-09-24 12:11:53,401 DEBUG [nfc.dep] send 2 byte dep cmd
+2012-09-24 12:11:53,403 DEBUG [nfc.dep] dep raw >> 0000
+2012-09-24 12:11:53,407 INFO  [nfc.llcp.llc] shutdown on link disruption
+2012-09-24 12:11:53,408 ERROR [nfc.snep.server] nfc.llcp.Error: [EPIPE] Broken pipe
+2012-09-24 12:11:53,408 ERROR [nfc.snep.server] nfc.llcp.Error: [EPIPE] Broken pipe
+2012-09-24 12:11:54,017 INFO  [root] I was the Initiator
